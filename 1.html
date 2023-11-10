@@ -11,10 +11,10 @@
 <body>
     <nav>Тут будут навигационные ссылки
         <ul>
-            <li>О нас</li>
-            <li>Продукция</li>
+            <li><a href="Pages/2.html">О нас</a></li>
+            <li><a href="pages/3.html">Продукция</a></li>
             <li>Отзывы</li>
-            <li>Контакты</li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
 
     </nav>
@@ -22,9 +22,9 @@
         <h1>Расскажем о нас</h1>
         <h2 >Все очень аподробно</h2>
         <p onclick="alert('Привет это алерт')">ipsum dolor yhjy sit amet consectetur adipisicing elit. Perspiciatis
-            laborum enim quasi doloremque dignissimos architecto tempore, ab ipsum repudiandae aliquid voluptatum
+            laborum <div>enim quasi doloremque</div> dignissimos architecto tempore, ab ipsum repudiandae aliquid voluptatum
             placeat
-            unde maxime molestias debitis reiciendis omnis nisi eos!</p>
+            unde maxime <span>molestias debitis reiciendis</span> omnis nisi eos!</p>
         <p>ipsum dolor yhjy sit amet consectetur adipisicing elit. Perspiciatis
             laborum enim quasi doloremque dignissimos architecto tempore, ab ipsum repudiandae aliquid voluptatum
             placeat
@@ -58,10 +58,16 @@
             <dt>Здесь находится термин</dt>
             <dd>А здесь можно написать его определение</dd>
         </dl>
+        <p>
+            <img src="img/20-1.png" alt="пироженка 1">
+            <img src="img/20-2.png" alt="пироженка 2">
+            <img src="img/20.png" alt="пироженка 3" >
+        </p>
+
         <a href="https://mephi.ru" target="_blank">НИЯУ МИФИ</a>
     </main>
     <aside>Приходите на курсы латинского языка!</aside>
-    <footer>Наши контакты</footer>
+    <footer><p id="contacts">Наши контакты</footer>
 </body>
 
 </html>
