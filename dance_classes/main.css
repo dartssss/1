@@ -1,0 +1,18 @@
+*{
+    background-color: #20001a;
+    color: #ffffff;
+    font-family:montserrat;
+}
+
+.h{
+    font-family: unbounded;
+    font-weight: normal;
+}
+
+button{
+    background-color: #b337ff;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 0;
+}
