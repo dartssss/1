@@ -1,0 +1,60 @@
+p{
+    color: rgb(89, 92, 247);
+    /* border-color: blueviolet; */
+    border: 4px ridge;
+    border-top-style: hidden;
+    border-left-style: inherit;
+    border-bottom-style:outset;
+    margin: 0 20px ;
+}
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    margin: 0;
+    background-image: url(/img/Group\ 3.png), radial-gradient(ellipse at 50% 50%, violet, blue);
+    background-image:linear-gradient(circle at center, blue, blueviolet) ;
+    background-size:  405, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 260px 320px, 0 0;
+    
+    
+}
+
+.angelka{
+    color: balck;
+    margin: 10px auto;
+    width:fit-content;
+    text-align: center;
+    border: 2px solid black;    
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+
+
+}
+
+
+
+.goroskop{
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 3px 3px 5px violet;
+    background-color: aliceblue;
+   
+
+
+
+
+
+}
+
+html{
+    min-height: 100%;
+}
